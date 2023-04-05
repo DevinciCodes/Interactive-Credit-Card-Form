@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+.background{
+    width: 100vw;
+    height: 45vh;
+    margin: 0 auto;
+    padding: 0 auto;
+    z-index: 0;
+    background-size: cover;
+}
+.backcard{
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    width: 80vw;
+    height: 30vh;
+    z-index: 1;
+    background-size: cover;
+}
+.frontcard{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 80vw;
+    height: 30vh;
+    z-index: 2;
+    background-size: cover;
+}
+.backnumber{
+   position: absolute;
+   top:19%;
+   right: 15%;
+   z-index: 5;
+   color: white;
+}
+.cardnumber{
+    position: absolute;
+    color: hsl(270, 3%, 87%);
+    z-index: 3;
+    left: 13%;
+    top: 36%;
+    font-size: 19px;
+    letter-spacing: 6px;
+    
+}
+.cardname{
+    position: relative;
+    color: hsl(270, 3%, 87%);
+    z-index: 3;
+    left: 13%;
+    
+    bottom: 46%;
+}
+
+.carddate{
+    position: absolute;
+    color: hsl(270, 3%, 87%);
+    z-index: 3;
+    right: 22%;
+    bottom: 46%;
+
+}
+
+.cardlogo{
+    position:absolute;
+    z-index: 4;
+    top: 27%;
+    left: 11%;
+}
+.inputname, .inputnumber, .inputdate{
+    color:hsl(278, 68%, 11%);
+    letter-spacing: 1px;
+    line-height: 0.8;
+   
+    top: 0%;
+}
+.inputdate{
+    display: inline;
+    
+}
+.inputcvc{
+  display:inline;
+  justify-content: right;
+  position: relative;
+  left: 70px;
+  
+
+  }
+
+  #cvc{
+    position: absolute;
+    left: 79%;
+    border-radius: 3%;
+    border: 1px solid hsl(270, 3%, 87%);
+
+  }
+  .container1{
+    
+  }
+
+.container2{
+    position:absolute;
+    top: 58%;
+    left: 6%;
+}
+.container3{
+    margin-top: 20px;
+}
+.button{
+    position: absolute;
+    top: 89%;
+    padding: 6px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border: solid ;
+    border-radius: 3%;
+
+}
+.date{
+    width: 10%;
+}
+
+#input{
+    border-radius: 3%;
+    width: 100%;
+    height: 30px;
+    border: 1px solid hsl(270, 3%, 87%);
+}
+#date{
+    border: 1px solid hsl(270, 3%, 87%);
+    border-radius: 3%;
+}
+
+@media only screen and (min-width: 600px){
+
+    .cardnumber, .cardname{
+    padding-left: 10%;
+    }
+    .btn{
+        position: absolute;
+        left: 65%;
+        top:60%;
+        width: 20%;
+        color: white;
+        
+        border-radius: 3%;
+    }
+
+}
+@media only screen and (min-width: 850px){
+    .cardnumber, .cardname{
+        padding-left: 0%;
+        }
+        .cardname{
+            position: absolute;
+            top: 45%;
+            left: 10%
+        }
+        .cardnumber{
+            font-size: 18px;
+            
+            left: 100px;
+            top: 38%;
+            
+        }
+
+        .carddate{
+            left: 30%;
+            padding-bottom:13px;
+        }
+
+    .background{
+        width: 45vh;
+        height: 85vw;
+    }
+    .backcard{
+        position: absolute;
+        top: 50%;
+        max-width: 45vw;
+        max-height: 30vh;
+       
+        
+
+    }
+    .frontcard{
+        width: 50vw;
+        height: 30vh;
+
+    }
+.container2{
+    position: absolute;
+    left: 65%;
+    top:30%
+}
+
+.btn{
+    position: absolute;
+    left: 65%;
+    top:60%;
+    width: 20%;
+    color: white;
+    
+    border-radius: 3%;
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 1100px){
+    .background{
+        height: 100vh;
+    }
+
+    .backcard{
+        position: absolute;
+        top: 50%;
+        max-width: 30vw;
+        max-height: 30vh;
+       
+        
+
+    }
+    .frontcard{
+        width: 30vw;
+        height: 30vh;
+
+    }
+
+    .cardname{
+        position: absolute;
+        top: 45%;
+        left: 10%
+    }
+    .cardnumber{
+        font-size: 18px;
+        
+        left: 145px;
+        top: 36%;
+        
+    }
+
+    .carddate{
+        left: 30%;
+        padding-bottom:13px;
+    }
+
+
+
+}
+
+
+
